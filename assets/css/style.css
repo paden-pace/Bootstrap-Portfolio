@@ -4,9 +4,9 @@
 
 .navbar{
 	background-color: red;
-	border-color:#cccccc;
+	border-color:rgb(54, 62, 82);
 	border-style: solid;
-	border-bottom-width: 2px;
+	border-width: 0 0 3px 0;
 }
 
 .navbar-header {
@@ -23,6 +23,7 @@
 	font-family: 'Georgia', Times, 'Times New Roman, serif';
 	font-size: 26px;
 	font-weight: bold;
+	margin-left: 10px;
 }
 
 .nav-header: hover {
@@ -77,7 +78,11 @@ body {
 	color:#777777;
 	background-image: url(../images/old_moon.png);
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
 	}
+
+
 
 .main {
 	background-color: #ffffff;
@@ -96,8 +101,8 @@ body {
 }
 
 .profile-img {
-	width:250px;
-	height:250px;
+	width:200px;
+	height:200px;
 	margin-bottom: 15px;
 }
 
@@ -117,14 +122,51 @@ p{
 	padding: 0 20px 20px 20px;
 	}
 
+.panel-heading {
+	background-color: #f1dea3;
+	color: rgb(54, 62, 82);
+	font-family: 'Georgia', Times, 'Times New Roman, serif';
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: solid 3px #ffffff;
+}
+
+.panel-body{
+	margin: 0;
+	padding: 5px;
+}
+
+/*.split-row{
+	text-align: center;
+	object-position: center;
+}*/
+
+.split-row-text {
+	color: #a07823;
+	background-color: #ffffff;
+/*	-webkit-text-stroke: px rgb(54, 62, 82);*/
+	text-align: center;
+	font-size: 35px;
+	border: solid 3px rgb(54, 62, 82);
+	padding: 5px;
+	margin-top: 50px;
+}
 
 .project-img {
-	width: 250px;
+	width: 200px;
 	height: 200px;
-/*	float: left;*/
-	margin: 20px 15px 20px 20px;
-	position: relative;
-	z-index: 10;
+	border:solid 2px #ffffff;
+	border-radius: 50%;
+	margin:10px 0;
+}
+
+.proj-mini-title {
+	text-align: center;
+}
+
+.proj-col-left{
+	padding-right: 0;
 }
 
 
@@ -132,44 +174,36 @@ p{
 	opacity: 0.5;
 }
 
-
-.project-title {
-	background-color: #4aaaa5;
-	color: #ffffff;
-	font-family: 'Georgia', Times, 'Times New Roman, serif';
-	font-size: 19px;
-	width: 250px;
-	padding: 10px 10px 10px 10px;
-	float: left;
-	margin: 0 0 0 0;
+.proj-title-col{
 	text-align: center;
-	position: absolute;
-	z-index: 20;
 }
 
-#title-hangman{
-	top: 260px;
-	left: 60px;
+.proj-col-right{
+	float: right;
+}
+.proj-col-left{
+	float: left;
 }
 
-#title-rpg{
-	top: 480px;
-	left: 60px;
+.panel-body p {
+	padding-bottom: 0;
 }
 
-#title-trivia{
-	top: 705px;
-	left: 60px;
+.panel-body h5 {
+	font-family: 'Georgia', Times, 'Times New Roman, serif';
 }
 
-#title-rutgers{
-	top: 920px;
-	left: 60px;
+.proj-link-col {
+	text-align: center;
 }
 
-#title-rock{
-	top: 1135px;
-	left: 60px;
+.proj-link-col a:focus, a:hover {
+    color: #d5923e;
+    text-decoration: underline;
+}
+
+.connect-title-port{
+	text-align: center;
 }
 
 

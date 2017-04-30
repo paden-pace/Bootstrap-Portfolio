@@ -23,73 +23,273 @@
 	<div class="header">
 		<nav class="navbar navbar-default">
 		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
-		      <a class="navbar-brand" href="index.html">Paden Pace</a>
+		      <a class="navbar-brand" id="navbar-brand" href="index.html">Paden Pace</a>
 		    </div>
-
-		    <!-- Collect the nav links, forms, and other content for toggling -->
 		      <ul class="nav navbar-nav navbar-right">
 		        <li class="nav-tab"><a href="index.html">About</a></li>
 		        <li class="nav-tab"><a href="portfolio.html">Portfolio</a></li>
 		        <li class="nav-tab"><a href="blog.html">Blog</a></li>
 		        <li class="nav-tab"><a href="contact.html">Contact</a></li>
 		      </ul>
-		  </div><!-- /.container-fluid -->
+		  </div>
 		</nav>
 	</div>
 
 	<div class="container">
 		<div class="row">
-			<div class="outside col-lg-8">
-				<div class="main main-about panel">
-					<div class="row">
-						<h2>Portfolio</h2>
+			<div class="outside col-lg-12">
+				<div class="port-title panel">
+					<h2 class="port-title-text">Portfolio</h2>
+				</div>	
+				<div class="row split-row split-row-games">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<h2 class="split-row-text">Games</h2>
 					</div>
-
-					<div clas ="row">
-						<a href="projects/project-example.html">
-							<img src="assets/images/random1.jpg" alt="Hangman-Project" class="project-img project-img-left" id="project-hangman"/>
-							<a href="projects/project-example.html" class="project-title" id="title-hangman">Hangman</a>
-						</a>
-					</div>
-					<div clas ="row">
-						<a href="projects/project-example.html">
-							<img src="assets/images/random2.jpg" alt="RPG-Game-Project" class="project-img project-img-left" id="project-rpg"/>
-							<a href="projects/project-example.html" class="project-title" id="title-rpg">RPG Game</a>
-						</a>
-					</div>
-				
-					<div clas ="row">
-						<a href="projects/project-example.html">
-							<img src="assets/images/random3.jpg" alt="Trivia-Game-Project" class="project-img project-img-left" id="project-trivia"/>
-							<a href="projects/project-example.html" class="project-title" id="title-trivia">Trivia Game</a>
-						</a>
-					</div>
-
-					<div clas ="row">
-						<a href="projects/project-example.html">
-							<img src="assets/images/random4.jpg" alt="Rutgers-Project" class="project-img project-img-right" id="project-rutgers"/>
-							<a href="projects/project-example.html" class="project-title" id="title-rutgers">Rutgers Info Widget</a>
-						</a>
-					</div>
-
-					<div clas ="row">
-						<a href="projects/project-example.html">
-							<img src="assets/images/random5.jpg" alt="Rock-Paper-Scissors-Project" class="project-img project-img-left" id="project-rock"/>
-							<a href="projects/project-example.html" class="project-title" id="title-rock">Rock Paper Scissors</a>
-						</a>
-					</div>
-
+					<div class="col-md-2"></div>
 				</div>
+				<div class="row port-proj-row">
+					<div class="port-proj-col col-md-6">
+						<div class="panel port-proj">
+							<div class="panel-heading">
+								<a href="projects/Trivia-Game/index.html" target="_blank" class="project-title">Trivia Game</a>
+							</div>
+							<div class="panel-body">
+								<div clas ="row panel-row">
+									<div class="col-md-5 proj-col-left">
+										<a href="projects/Trivia-Game/index.html" target="_blank">
+											<img src="assets/images/random3.jpg" alt="Trivia-Game" class="project-img project-img-left" id="project-trivia"/>
+										</a>
+									</div>
+									<div class="col-md-7 proj-col-right">
+										<div class="row">
+											<h5 class="proj-mini-title">Summary:</h5>
+											<p>A multiple choice Disney Channel Original Movie triva game created with HTML, CSS, and JavaScript to include timers, count-downs, and gifs</p>
+										</div>
+										<div class="row">
+											<h5 class="proj-mini-title">Links:</h5>
+											<div class="col-md-6 proj-link-col">
+												<a href="projects/Trivia-Game/index.html" target="_blank" class="proj-link">
+												<p>Page Link</p>
+											</a>
+											</div>
+											<div class="col-md-6 proj-link-col">
+												<a href="https://github.com/paden-pace/TriviaGame" target="_blank" class="proj-link">
+												<p>Git Hub Repo</p>
+											</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="port-proj-col col-md-6">
+						<div class="panel port-proj">
+							<div class="panel-heading">
+								<a href="projects/Random-Number/index.html" target="_blank" class="project-title">Random Number Game</a>
+							</div>
+							<div class="panel-body">
+								<div clas ="row panel-row">
+									<div class="col-md-5 proj-col-left">
+										<a href="projects/Random-Number/index.html" target="_blank">
+											<img src="assets/images/random4.jpg" alt="Random-Number-Game" class="project-img project-img-left" id="project-random"/>
+										</a>
+									</div>
+									<div class="col-md-7 proj-col-right">
+										<div class="row">
+											<h5 class="proj-mini-title">Summary:</h5>
+											<p>A game Teenage Mutant Ninja Turtles themed addition game made with a large reliance on JQuery and Twitter Bootstrap</p>
+										</div>
+										<div class="row">
+											<h5 class="proj-mini-title">Links:</h5>
+											<div class="col-md-6 proj-link-col">
+												<a href="projects/Random-Number/index.html" target="_blank" class="proj-link">
+												<p>Page Link</p>
+											</a>
+											</div>
+											<div class="col-md-6 proj-link-col">
+												<a href="https://github.com/paden-pace/week-4-game" target="_blank" class="proj-link">
+												<p>Git Hub Repo</p>
+											</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row port-proj-row">
+					<div class="col-md-3"></div>
+					<div class="port-proj-col col-md-6">
+						<div class="panel port-proj">
+							<div class="panel-heading">
+								<a href="projects/Hangman-Game/HomePage.html" target="_blank" class="project-title">Hangman Game</a>
+							</div>
+							<div class="panel-body">
+								<div clas ="row panel-row">
+									<div class="col-md-5 proj-col-left">
+										<a href="projects/gif-search/index.html" target="_blank">
+											<img src="assets/images/random2.jpg" alt="Hangman-Project" class="project-img project-img-left" id="project-hangman"/>
+										</a>
+									</div>
+									<div class="col-md-7 proj-col-right">
+										<div class="row">
+											<h5 class="proj-mini-title">Summary:</h5>
+											<p>An interactive Hangman game that uses HTML, CSS, and JavaScript to allow the user to guess words from either the Star Wars universe or 90s cartoon TV shows</p>
+										</div>
+										<div class="row">
+											<h5 class="proj-mini-title">Links:</h5>
+											<div class="col-md-6 proj-link-col">
+												<a href="projects/Hangman-Game/HomePage.html" target="_blank" class="proj-link">
+												<p>Page Link</p>
+											</a>
+											</div>
+											<div class="col-md-6 proj-link-col">
+												<a href="https://github.com/paden-pace/hangman-game" target="_blank" class="proj-link">
+												<p>Git Hub Repo</p>
+											</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row split-row split-row-apps">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<h2 class="split-row-text">Applications</h2>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+				<div class="row port-proj-row">
+					<div class="port-proj-col col-md-6">
+						<div class="panel port-proj">
+							<div class="panel-heading">
+								<a href="projects/train-schedule/index.html" target="_blank" class="project-title">Train Scheduler</a>
+							</div>
+							<div class="panel-body">
+								<div clas ="row panel-row">
+									<div class="col-md-5 proj-col-left">
+										<a href="projects/train-schedule/index.html" target="_blank">
+											<img src="assets/images/random5.jpg" alt="Train-Scheduler" class="project-img project-img-left" id="train-scheduler"/>
+										</a>
+									</div>
+									<div class="col-md-7 proj-col-right">
+										<div class="row">
+											<h5 class="proj-mini-title">Summary:</h5>
+											<p>An interactive scheduler for calculating repeating train arrivals with the use of Moment.JS and Google's Firebase Database</p>
+										</div>
+										<div class="row">
+											<h5 class="proj-mini-title">Links:</h5>
+											<div class="col-md-6 proj-link-col">
+												<a href="projects/train-schedule/index.html" target="_blank" class="proj-link">
+												<p>Page Link</p>
+											</a>
+											</div>
+											<div class="col-md-6 proj-link-col">
+												<a href="https://github.com/paden-pace/train-schedule" target="_blank" class="proj-link">
+												<p>Git Hub Repo</p>
+											</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="port-proj-col col-md-6">
+						<div class="panel port-proj">
+							<div class="panel-heading">
+								<a href="projects/group-project-1/index.html" target="_blank" class="project-title">See You There App</a>
+							</div>
+							<div class="panel-body">
+								<div clas ="row panel-row">
+									<div class="col-md-5 proj-col-left">
+										<a href="projects/group-project-1/index.html" target="_blank">
+											<img src="assets/images/random1.jpg" alt="See-You-There-App" class="project-img project-img-left" id="see-you-there"/>
+										</a>
+									</div>
+									<div class="col-md-7 proj-col-right">
+										<div class="row">
+											<h5 class="proj-mini-title">Summary:</h5>
+											<p>A user authitified app that successfully integrates multiple APIs including Google Maps and Underground Weather to allow the user to create and store events to a personal schedule using Firebase Database</p>
+										</div>
+										<div class="row">
+											<h5 class="proj-mini-title">Links:</h5>
+											<div class="col-md-6 proj-link-col">
+												<a href="projects/group-project-1/index.html" target="_blank" class="proj-link">
+												<p>Page Link</p>
+											</a>
+											</div>
+											<div class="col-md-6 proj-link-col">
+												<a href="https://github.com/paden-pace/group-project-1" target="_blank" class="proj-link">
+												<p>Git Hub Repo</p>
+											</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+				<div class="row port-proj-row">
+					<div class="col-md-3"></div>
+					<div class="port-proj-col col-md-6">
+						<div class="panel port-proj">
+							<div class="panel-heading">
+								<a href="projects/gif-search/index.html" target="_blank" class="project-title">Gif Search</a>
+							</div>
+							<div class="panel-body">
+								<div clas ="row panel-row">
+									<div class="col-md-5 proj-col-left">
+										<a href="projects/gif-search/index.html" target="_blank">
+											<img src="assets/images/random1.jpg" alt="Gif-Search" class="project-img project-img-left" id="project-gif"/>
+										</a>
+									</div>
+									<div class="col-md-7 proj-col-right">
+										<div class="row">
+											<h5 class="proj-mini-title">Summary:</h5>
+											<p>A simple search page that uses the Giffy API to search for gifs, and create set specific search buttons</p>
+										</div>
+										<div class="row">
+											<h5 class="proj-mini-title">Links:</h5>
+											<div class="col-md-6 proj-link-col">
+												<a href="projects/gif-search/index.html" target="_blank" class="proj-link">
+												<p>Page Link</p>
+											</a>
+											</div>
+											<div class="col-md-6 proj-link-col">
+												<a href="https://github.com/paden-pace/gif-search" target="_blank" class="proj-link">
+												<p>Git Hub Repo</p>
+											</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row split-row split-row-pages">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<h2 class="split-row-text">Webpages</h2>
+					</div>
+					<div class="col-md-2"></div>
+				</div>	
 			</div>
-		
-
-
-			<div class="port-side outside col-lg-4">
+			<div class="port-side outside col-lg-12">
 				<div class="sidebar panel">
-					<div class="row">
-						<h3>Connect With Me</h3>
+					<div class="row connect-title-port">
+						<h3 class="connect-title">Connect With Me</h3>
 					</div>
 
 					<div class="row">
@@ -116,92 +316,16 @@
 				</div>
 			</div>
 		</div>
-		</div>
+	</div>
 		
-		<div class="footer row">
-			<p class="col-lg-12" id="footer-text">&copy; Copyright 2016 Paden Pace</p>
-		</div>
+	<div class="footer row">
+		<p class="col-lg-12" id="footer-text">&copy; Copyright 2016 Paden Pace</p>
 	</div>
 
 
-</body>
-
-
-
-
-
-
-
-
-
-<!-- <html lang="en-us">
-	<head>
-		<meta charset="utf-8">
-		<title>Paden Pace Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-	</head>
-
-<body>
-	<header>
-		<div>
-		<a href="index.html"><h1>Paden Pace</h1> </a>
-
-			<nav>
-				<a href="index.html" class="nav-tab" id="nav-about">About</a>
-				<a href="portfolio.html" class="nav-tab" id="nav-portfolio">Portfolio</a>
-				<a href="contact.html" class="nav-tab" id="nav-contact">Contact</a>
-			</nav>
-			</div>
-	</header>
-
-			<div class="main" id="main-portfolio">
-				<h2>Portfolio</h2>
-					<a href="projects/project-example.html">
-					<img src="assets/images/random1.jpg" alt="Hangman-Project" class="project-img" id="project-hangman" height ="150px" width="200px" height="150px"/>
-					<a class="project-title" id="title-hangman">Hangman</a>
-					</a>
-
-					<a href="projects/project-example.html">
-					<img src="assets/images/random2.jpg" alt="RPG-Game-Project" class="project-img" id="project-rpg" height ="150px" width="200px" height="150px"/>
-					<a class="project-title" id="title-rpg">RPG Game</a>
-					</a>
-
-					<a href="projects/project-example.html">
-					<img src="assets/images/random3.jpg" alt="Trivia-Game-Project" class="project-img" id="project-trivia" height ="150px" width="200px" height="150px"/>
-					<a class="project-title" id="title-trivia">Trivia Game</a>
-					</a>
-
-					<a href="projects/project-example.html">
-					<img src="assets/images/random4.jpg" alt="Rutgers-Project" class="project-img" id="project-rutgers" height ="150px" width="200px" height="150px"/>
-					<a class="project-title" id="title-rutgers">Rutgers Info Widget</a>
-					</a>
-
-					<a href="projects/project-example.html">
-					<img src="assets/images/random5.jpg" alt="Rock-Paper-Scissors-Project" class="project-img" id="project-rock" height ="150px" width="200px" height="150px"/>
-					<a class="project-title" id="title-rock">Rock Paper Scissors</a>
-					</a>
-			</div>
-
-			<div class="sidebar">
-				<h3>Connect with Me</h3>
-					<a href="https://github.com/paden-pace" target="_blank" >
-						<img src="assets/images/github-square.png" alt="github-square" class="social-link" width="50px" height="50px" />
-					</a>
-					<a href="https://www.linkedin.com/in/paden-pace-510949a1?" target="_blank">
-						<img src="assets/images/linkedin-square.png" alt="linkedin-square" class="social-link" width="50px" height="50px" />
-					</a>
-					<a href="http://stackoverflow.com/users/7196071/paden-pace" target="_blank">
-						<img src="assets/images/stackoverflow-square.png" alt="stackoverflow-square" class="social-link" width="50px" height="50px">
-					</a>
-			</div>
 
 </body>
 
-	<footer>
 
-		<p class="site-footer" id="footer-text">&copy; Copyright 2016 Paden Pace</p>
-	</footer>
 
-</html> --> 
+</html>
