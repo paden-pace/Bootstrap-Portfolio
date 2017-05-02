@@ -143,6 +143,30 @@ var posts = [
 				info: ["Changes to portfolio style sheet to add functionailty and compatable styles across all pages"]
 			}
 		]
+	},{
+		day: 14,
+		date: "April 14, 2017", 
+		projects: [
+			{
+				title: "Blog-Personal-Portfolio",
+				info: ["Finalization of Post #2 and challenge posts"]
+			},{
+				title: "Gif-Search",
+				info: ["Bug fixes to Gif-Search and functionailty"]
+			}
+		]
+	},{
+		day: 15,
+		date: "April 15, 2017", 
+		projects: [
+			{
+				title: "Restraunt-Resrvation (Group)",
+				info: ["Main responsibilities html, css, and api-routes"]
+			},{
+				title: "Bamazon, Node.js, MySQL",
+				info: ["Finalization and submission of all node files"]
+			}
+		]
 	}
 ];
 
