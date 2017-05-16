@@ -164,7 +164,74 @@ var posts = [
 				info: ["Main responsibilities html, css, and api-routes"]
 			},{
 				title: "Bamazon, Node.js, MySQL",
-				info: ["Finalization and submission of all node files"]
+				info: ["Basic updates and submission of all node files"]
+			}
+		]
+	}, {
+		day: 16,
+		date: "April 16, 2017", 
+		projects: [
+			{
+				title: "Bamazon, Node.js, MySQL)",
+				info: ["Finalization and clean up of node display"]
+			},{
+				title: "Texas Quidditch",
+				info: ["Addition of tabbed content", 
+						"Creation of panels and styling adjustments"]
+			}
+		]
+	},{
+		day: 17,
+		date: "April 17, 2017", 
+		projects: [
+			{
+				title: "FriendFinder",
+				info: ["Creation of a basic array comparison node application"]
+			}
+		]
+	},{
+		day: 18,
+		date: "April 18, 2017", 
+		projects: [
+			{
+				title: "FriendFinder",
+				info: ["Addition of simple file layout with HTML, CSS, and JS files"]
+			}
+		]
+	},{
+		day: 19,
+		date: "April 19, 2017", 
+		projects: [
+			{
+				title: "FriendFinder",
+				info: ["Adjustments to JS to include node packages"]
+			}
+		]
+	},{
+		day: 20,
+		date: "April 20, 2017", 
+		projects: [
+			{
+				title: "FriendFinder",
+				info: ["JavaScript adjustments and additions to the SQL database"]
+			}
+		]
+	},{
+		day: 21,
+		date: "April 21, 2017", 
+		projects: [
+			{
+				title: "FriendFinder",
+				info: ["Configuration of relations between SQL DB and JS files"]
+			}
+		]
+	},{
+		day: 22,
+		date: "April 22, 2017", 
+		projects: [
+			{
+				title: "FriendFinder",
+				info: ["Finalization of CSS styling using bootstrap"]
 			}
 		]
 	}
