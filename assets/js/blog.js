@@ -88,7 +88,7 @@ var posts = [
 				title: "Flashcard-Generator",
 				info: ["Addition of options landing page with the npm inquirer"]
 			},{
-				title: "Bamazon, Node.js, MySQL",
+				title: "Bamazon: Node.js, MySQL",
 				info: ["Creation of node application used to access local Database"]
 			}
 		]
@@ -97,7 +97,7 @@ var posts = [
 		date: "April 9, 2017", 
 		projects: [
 			{
-				title: "Bamazon, Node.js, MySQL",
+				title: "Bamazon: Node.js, MySQL",
 				info: ["Development of Bamazon Customer option",
 						"Addition of Constructor and MySQL database with table 'products'"]
 			}
@@ -107,7 +107,7 @@ var posts = [
 		date: "April 10, 2017", 
 		projects: [
 			{
-				title: "Bamazon, Node.js, MySQL",
+				title: "Bamazon: Node.js, MySQL",
 				info: ["Creation and Development of Bamazon Manager option",]
 			}
 		]
@@ -116,7 +116,7 @@ var posts = [
 		date: "April 11, 2017", 
 		projects: [
 			{
-				title: "Bamazon, Node.js, MySQL",
+				title: "Bamazon: Node.js, MySQL",
 				info: ["Creation and Development of Bamazon Supervisor option",
 						"Addition of Bamazon landing page 'Index'"]
 			}
@@ -126,7 +126,7 @@ var posts = [
 		date: "April 12, 2017", 
 		projects: [
 			{
-				title: "Bamazon, Node.js, MySQL",
+				title: "Bamazon: Node.js, MySQL",
 				info: ["Addition of MySQL table 'departments'",
 						"Development and functionality to the Bamazon Sales Log"]
 			}
@@ -163,7 +163,7 @@ var posts = [
 				title: "Restraunt-Resrvation (Group)",
 				info: ["Main responsibilities html, css, and api-routes"]
 			},{
-				title: "Bamazon, Node.js, MySQL",
+				title: "Bamazon: Node.js, MySQL",
 				info: ["Basic updates and submission of all node files"]
 			}
 		]
@@ -172,7 +172,7 @@ var posts = [
 		date: "April 16, 2017", 
 		projects: [
 			{
-				title: "Bamazon, Node.js, MySQL)",
+				title: "Bamazon: Node.js, MySQL)",
 				info: ["Finalization and clean up of node display"]
 			},{
 				title: "Texas Quidditch",
@@ -234,7 +234,46 @@ var posts = [
 				info: ["Finalization of CSS styling using bootstrap"]
 			}
 		]
-	}
+	},{
+		day: 23,
+		date: "April 23, 2017", 
+		projects: [
+			{
+				title: "burger: Node.js, ORM, MySQL",
+				info: ["Creation of 'burger' repo with MySQL ORM capabilities", 
+						"Simple repo structure with test files"]
+			}
+		]
+	},{
+		day: 24,
+		date: "April 24, 2017", 
+		projects: [
+			{
+				title: "burger: Node.js, ORM, MySQL",
+				info: ["Basic JavaScript to function with sample data", 
+						"Addition of Node-Modules"]
+			}
+		]
+	},{
+		day: 25,
+		date: "April 25, 2017", 
+		projects: [
+			{
+				title: "burger: Node.js, ORM, MySQL",
+				info: ["Addition of API and HTML Routes for DB correlation"]
+			}
+		]
+	},{
+		day: 26,
+		date: "April 26, 2017", 
+		projects: [
+			{
+				title: "burger: Node.js, ORM, MySQL",
+				info: ["Creation of index.handlebars for handling of base html layout", 
+						"Finalization of HTML and CSS styling"]
+			}
+		]
+	},
 ];
 
 
