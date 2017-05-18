@@ -273,7 +273,43 @@ var posts = [
 						"Finalization of HTML and CSS styling"]
 			}
 		]
-	},
+	},{
+		day: 27,
+		date: "April 27, 2017", 
+		projects: [
+			{
+				title: "Texas_Quid:JS, HTML, CSS",
+				info: ["Panelling of body html content"]
+			}
+		]
+	},{
+		day: 28,
+		date: "April 28, 2017", 
+		projects: [
+			{
+				title: "burger: Node.js, ORM, MySQL",
+				info: ["Addition of in fram youtube video"]
+			}
+		]
+	},{
+		day: 29,
+		date: "April 29, 2017", 
+		projects: [
+			{
+				title: "burger: Node.js, ORM, MySQL",
+				info: ["Addition of in fram youtube video"]
+			}
+		]
+	},{
+		day: 30,
+		date: "April 30, 2017", 
+		projects: [
+			{
+				title: "burger: Node.js, ORM, MySQL",
+				info: ["Addition of in fram youtube video"]
+			}
+		]
+	}
 ];
 
 
