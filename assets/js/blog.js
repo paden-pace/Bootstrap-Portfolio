@@ -287,7 +287,7 @@ var posts = [
 		date: "April 28, 2017", 
 		projects: [
 			{
-				title: "burger: Node.js, ORM, MySQL",
+				title: "Texas_Quid:JS, HTML, CSS",
 				info: ["Addition of in fram youtube video"]
 			}
 		]
@@ -296,8 +296,9 @@ var posts = [
 		date: "April 29, 2017", 
 		projects: [
 			{
-				title: "burger: Node.js, ORM, MySQL",
-				info: ["Addition of in fram youtube video"]
+				title: "Bootstrap_Portfolio",
+				info: ["Additions to the blog.js", 
+						"Adding panels to portfolio's HTML"]
 			}
 		]
 	},{
@@ -305,8 +306,156 @@ var posts = [
 		date: "April 30, 2017", 
 		projects: [
 			{
-				title: "burger: Node.js, ORM, MySQL",
-				info: ["Addition of in fram youtube video"]
+				title: "Bootstrap_Portfolio",
+				info: ["Additions to blog.js"]
+			},{
+				title: "sequilizedBurger: Node.js, Sequelize, MySQL",
+				info: ["Creation of repo and file layout"]
+			}
+		]
+	},{
+		day: 31,
+		date: "May 1, 2017", 
+		projects: [
+			{
+				title: "Bootstrap_Portfolio",
+				info: ["Additions and styling to overall site"]
+			}
+		]
+	},{
+		day: 32,
+		date: "May 2, 2017", 
+		projects: [
+			{
+				title: "CAH_repo",
+				info: ["Creation of repo and file layout", 
+						"Basic structure of sequelized MySQL DB"]
+			},{
+				title: "sequilizedBurger: Node.js, Sequelize, MySQL",
+				info: ["Basic page HTML designed and established"]
+			}
+		]
+	},{
+		day: 33,
+		date: "May 3, 2017", 
+		projects: [
+			{
+				title: "sequilizedBurger: Node.js, Sequelize, MySQL",
+				info: ["Basic API and HTML route creation"]
+			}
+		]
+	},{
+		day: 34,
+		date: "May 4, 2017", 
+		projects: [
+			{
+				title: "sequilizedBurger: Node.js, Sequelize, MySQL",
+				info: ["Adjustments to DB calls and Sequelization"]
+			},{
+				title: "arcade_repo (group)",
+				info: ["Creation of Arcade Repo to utalize Sequelized DB"]
+			}
+		]
+	},{
+		day: 35,
+		date: "May 5, 2017", 
+		projects: [
+			{
+				title: "sequilizedBurger: Node.js, Sequelize, MySQL",
+				info: ["Finalization of JavaScript and back-end", 
+						"Final adjustments to CSS and HTML layout"]
+			}
+		]
+	},{
+		day: 36,
+		date: "May 6, 2017", 
+		projects: [
+			{
+				title: "arcade_repo (group)",
+				info: ["Basic layout to Simon Says game", 
+						"Basic layout to landing page / leader board"]
+			}
+		]
+	},{
+		day: 37,
+		date: "May 7, 2017", 
+		projects: [
+			{
+				title: "arcade_repo (group)",
+				info: ["Basic site and link layouts", 
+						"Initional HTML-routes and calls"]
+			}
+		]
+	},{
+		day: 38,
+		date: "May 8, 2017", 
+		projects: [
+			{
+				title: "arcade_repo (group)",
+				info: ["Construction to the Simon Says game JavaScript"]
+			}
+		]
+	},{
+		day: 39,
+		date: "May 9, 2017", 
+		projects: [
+			{
+				title: "arcade_repo (group)",
+				info: [""]
+			}
+		]
+	},{
+		day: 40,
+		date: "May 10, 2017", 
+		projects: [
+			{
+				title: "arcade_repo (group)",
+				info: [""]
+			}
+		]
+	},{
+		day: 41,
+		date: "May 11, 2017", 
+		projects: [
+			{
+				title: "arcade_repo (group)",
+				info: [""]
+			}
+		]
+	},{
+		day: 42,
+		date: "May 12, 2017", 
+		projects: [
+			{
+				title: "arcade_repo (group)",
+				info: [""]
+			}
+		]
+	},{
+		day: 43,
+		date: "May 13, 2017", 
+		projects: [
+			{
+				title: "arcade_repo (group)",
+				info: [""]
+			}
+		]
+	},{
+		day: 44,
+		date: "May 14, 2017", 
+		projects: [
+			{
+				title: "arcade_repo (group)",
+				info: [""]
+			}
+		]
+	},{
+		day: 45,
+		date: "May 15, 2017", 
+		projects: [
+			{
+				title: "arcade_repo (group)",
+				info: [""]
 			}
 		]
 	}
