@@ -401,7 +401,8 @@ var posts = [
 		projects: [
 			{
 				title: "arcade_repo (group)",
-				info: [""]
+				info: ["Additions and corrections to the Simon Says game", 
+						"Basic Home page and leaderboard HTML layouts"]
 			}
 		]
 	},{
@@ -410,7 +411,8 @@ var posts = [
 		projects: [
 			{
 				title: "arcade_repo (group)",
-				info: [""]
+				info: ["Construction of site wide API routes and calls", 
+						"Assistance and corrections to BlackJack game"]
 			}
 		]
 	},{
@@ -419,7 +421,8 @@ var posts = [
 		projects: [
 			{
 				title: "arcade_repo (group)",
-				info: [""]
+				info: ["Addition to MySQL DB of player specific option", 
+						"Finalization of Simon Says game functionality"]
 			}
 		]
 	},{
@@ -428,7 +431,9 @@ var posts = [
 		projects: [
 			{
 				title: "arcade_repo (group)",
-				info: [""]
+				info: ["In depth creation of Home Page and Simon Says CSS", 
+						"Assistance to the functionality of BlackJack game", 
+						"Current score live update and display to Simon Says"]
 			}
 		]
 	},{
@@ -437,7 +442,8 @@ var posts = [
 		projects: [
 			{
 				title: "arcade_repo (group)",
-				info: [""]
+				info: ["Syncronization of site wide styling", 
+						"Correction to Log-in display"]
 			}
 		]
 	},{
@@ -446,7 +452,8 @@ var posts = [
 		projects: [
 			{
 				title: "arcade_repo (group)",
-				info: [""]
+				info: ["Current score live update and display site wide", 
+						"Updateds to site wide styling"]
 			}
 		]
 	},{
@@ -455,7 +462,49 @@ var posts = [
 		projects: [
 			{
 				title: "arcade_repo (group)",
-				info: [""]
+				info: ["Last minute bug corrections"]
+			}, {
+				title: "arcade_solo_repo",
+				info: ["Creation of basic file layout"]
+			}
+		]
+	},{
+		day: 46,
+		date: "May 16, 2017", 
+		projects: [
+			{
+				title: "arcade_solo_repo",
+				info: ["Addition to cards.js basic pseudocode for new BlackJack"]
+			}, {
+				title: "Bootstrap-Portfolio",
+				info: ["Addition to 100 Day Coding Challenge in blog.js"]
+			}
+		]
+	},{
+		day: 47,
+		date: "May 17, 2017", 
+		projects: [
+			{
+				title: "Bootstrap-Portfolio",
+				info: ["Addition and Correction to 100 Day Coding Challenge in blog.js"]
+			}
+		]
+	},{
+		day: 48,
+		date: "May 18, 2017", 
+		projects: [
+			{
+				title: "Bootstrap-Portfolio",
+				info: ["Addition to 100 Day Coding Challenge in blog.js"]
+			}
+		]
+	},{
+		day: 49,
+		date: "May 19, 2017", 
+		projects: [
+			{
+				title: "Bootstrap-Portfolio",
+				info: ["Brought the 100 Day Coding Challenge in blog.js up to date"]
 			}
 		]
 	}
